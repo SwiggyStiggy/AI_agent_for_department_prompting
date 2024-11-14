@@ -3,18 +3,18 @@ import dotenv
 import os
 import json
 
-dotenv.load_dotenv('E:/project/ChatGPTpromptrefining/.env')
+dotenv.load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # these are my private .json files, you can use any other .json files
 
-with open('E:/project/ChatGPTpromptrefining/team_info.json') as json_file:
+with open('./team_info.json') as json_file:
     team_data = json.load(json_file)
 
-with open('E:/project/ChatGPTpromptrefining/user_info.json') as json_file:
+with open('./user_info.json') as json_file:
     user_data = json.load(json_file)
 
-with open('E:/project/ChatGPTpromptrefining/combined_info.json') as json_file:
+with open('./combined_info.json') as json_file:
     combined_data = json.load(json_file)
 
 data = {
