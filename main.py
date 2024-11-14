@@ -6,7 +6,7 @@ import json
 dotenv.load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
-# these are my private .json files. Feel free to manipulate any personal data with this code.
+#this part reads my private .json files, which were exported from previously owned Microsoft teams demo environment. Afterwards adjusted by myself to my will - adding salaries or user's job experience for HR based testing.
 
 with open('./team_info.json') as json_file:
     team_data = json.load(json_file)
@@ -23,12 +23,17 @@ data = {
     "combined_info": combined_data
 }
 
-# -----------------------
 
+
+#--------------------------------------------------------------------------------------
+
+
+
+#this part basically exlpains the type of AI which will be implemented with the data mentioned above.
 def generate_response(prompt_): 
     response_ = openai.ChatCompletion.create(
         model='gpt-4o-mini', #text-davinci-003  gpt-3.5-turbo gpt-4o-mini - old one if anything use this. 
-        messages=conversation_history,  #conversation_history - for chatting.   [{"role": "user", "content": prompt_}] - for single call.
+        messages=conversation_history,  #!conversation_history - for chatting.    OR  ![{"role": "user", "content": prompt_}] - for single call.
         max_tokens=16384, #needs to be 100
         n=1,
         stop=None,
@@ -36,15 +41,24 @@ def generate_response(prompt_):
     answer = response_.choices[0].message['content'].strip()
     return answer
 
-"""NECESSARY ADDITION FOR CHAT SYSTEM________________________________"""
 
-# Store the conversation history
-conversation_history = [{"role": "system", "content": "You are a helpful assistant."}]  # Add a system message to set the context
+
+#--------------------------------------------------------------------------------------
+
+
+#This part defines, if you'd like the refined AI to have only single call - "single action" - this type has no memory so asking a single question returns its answer and conversation closes. "Ping-ping" on the otherhand is chat-based system,
+#memorizes the conversation but drains the API token usage. In my case, single call is commented and chat-based active.
+
+"""NECESSARY ADDITION FOR Chat-based SYSTEM________________________________NOT FOR SINGLE CALL"""
+
+conversation_history = [{"role": "system", "content": "You are a helpful assistant."}]
+
+
 """____________________________________"""
 
 
 
-"""Single call will be commented. Chat-type remains."""
+#SINGLE-ACTION(single call)
 
 #while True:
 #    user_question = input("Ask a question: ")
@@ -52,32 +66,28 @@ conversation_history = [{"role": "system", "content": "You are a helpful assista
 #    response = generate_response(prompt)
 #    print("ChatGPT: " + response)
 
+
+#PING-PONG(chat-based)
+
 while True:
-    # Ask the user for input
+    #begin conversation:
     user_question = input("Ask a question: ")
-
-    # Add the user's question to the conversation history
     conversation_history.append({"role": "user", "content": user_question})
-
-    # Append data (this could be adjusted to only append relevant data to keep prompt size smaller)
     prompt_data = json.dumps(data, indent=4)
+    #create temporary memory for "ping pong" chat to exist in the system"
     conversation_history.append({"role": "system", "content": f"Data available: {prompt_data}"})
-
-    # Generate response based on the conversation history
     response = generate_response(conversation_history)
-
-    # Show the response from the model
     print("ChatGPT: " + response)
-
-    # Add the response to the conversation history
     conversation_history.append({"role": "assistant", "content": response})
 
-    # Ask the user if they are satisfied with the answer
-    satisfied = input("Are you satisfied with the answer? (yes/no): ").strip().lower()
+    #keeps the loop until user is done with talking with the AI.
+    satisfied = input("Shall we resume the conversation? (yes/no): ").strip().lower()
     
-    if satisfied == "yes":
+    if satisfied == "no":
         print("Great! Ending the conversation.")
-        break  # Exit the loop if the user is satisfied
-    else:
+        break
+    elif satisfied == "yes":
         print("Okay, let's continue the conversation.")
-        # The loop continues, and the model retains the conversation history
+
+    else:
+        print("""Please answer only with "yes" or "no", thank you!""")
