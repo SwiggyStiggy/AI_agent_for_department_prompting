@@ -1,15 +1,54 @@
+{
+  "_comment": "This file contains details of company's existing employees/users.",
+  "Company employees":
 [
-    {
-        "User Id": "e2474070-2d4b-423f-8015-004b071e8fe5a",
-        "Display Name": "Giorgi Nakeuri",
-        "User name": "g.nakeuri@test.com",
-        "Phone Number": "+995 599 99 99 99",
-        "Location": "GE",
-        "Directory Status": "PureOnline",
-        "Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "Audio Conferencing": "On",
-        "Phone Systems": "On",
-        "Calling Plan": "None",
+  {
+    "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
+    "Display Name": "David Tavdgiridze",
+    "E-mail": "david.tavdgiridze@company.com",
+    "Phone Number": "+995 555 11 22 33",
+    "Location": "Tbilisi, Georgia",
+    "Directory Status": "PureOnline",
+    "Interpreted User Type": "PureOnlineTeamsOnlyUser",
+    "Audio Conferencing": "On",
+    "Phone Systems": "On",
+    "Calling Plan": "None",
+    "Job Title": "Head of Development Department, Chief Technology Officer",
+    "Department": "Development",
+    "Manager": "None",
+    "Employment Start Date": "2024-01-15",
+    "Office Location": "Tbilisi Office, 7th Floor",
+    "Skills": [
+      "Full Stack Development",
+      "Project Management",
+      "Team Leadership",
+      "Agile Methodology",
+      "Cloud Computing (AWS, Azure)",
+      "CI/CD Pipeline",
+      "JavaScript, Python, Java"
+    ],
+    "Education": {
+      "Degree": "Bachelor's in Computer Science",
+      "University": "Georgian Technical University",
+      "Graduation Year": 2022
+    },
+    "Certifications": [
+      "AWS Certified Solutions Architect",
+      "Certified ScrumMaster (CSM)"
+    ],
+    "Languages": [
+      "English (Fluent)",
+      "Georgian (Native)",
+      "Russian (Intermediate)",
+      "German (Intermediate)",
+      "Italian (Intermediate)"
+    ],
+    "Birthday": "16-03-2000",
+    "Emergency Contact": {
+      "Name": "Bagrat Tavdgiridze",
+      "Phone": "+995 555 22 11 22",
+      "Relationship": "Brother"
+    },
         "salary": [
           { "month": "January", "amount": 3000, "currency": "USD" },
           { "month": "February", "amount": 3200, "currency": "USD" },
@@ -23,104 +62,56 @@
           { "month": "October", "amount": 3350, "currency": "USD" },
           { "month": "November", "amount": 3400, "currency": "USD" },
           { "month": "December", "amount": 3500, "currency": "USD" }
-        ],
-        "Job Title": "Senior Software Engineer",
-        "Department": "Engineering",
-        "Manager": "Levan Gvantseladze",
-        "Employment Start Date": "2023-06-15",
-        "Office Location": "Tbilisi, Georgia",
-        "Projects": [
-          "Web App Development",
-          "Cloud Migration"
-        ],
-        "Skills": [
-          "JavaScript", 
-          "Node.js", 
-          "React", 
-          "AWS", 
-          "Python"
-        ],
-        "Education": {
-          "Degree": "Bachelor's in Computer Science",
-          "University": "Bussiness and Technology University",
-          "Graduation Year": 2022
-        },
-        "Certifications": [
-          "AWS Certified Solutions Architect",
-          "Certified Kubernetes Administrator"
-        ],
-        "Languages": [
-          "Georgian", 
-          "English", 
-          "Russian"
-        ],
-        "Birthday": "2000-07-23",
-        "Emergency Contact": {
-          "Name": "Keti Nakeuri",
-          "Phone": "+995 599 88 77 77",
-          "Relationship": "Sister"
-        }
+        ]
       },
       {
-        "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
-        "Display Name": "David Tavdgiridze",
-        "User name": "d.tavdgiridze@test.com",
-        "Phone Number": "+995 599 88 88 88",
-        "Location": "GE",
+        "User Id": "d35b7081-1d5d-43fe-a557-1fa39b68296b",
+        "Display Name": "Giorgi Nakeuri",
+        "E-mail": "giorgi.nakeuri@company.com",
+        "Phone Number": "+995 555 654 321",
+        "Location": "Tbilisi, Georgia",
         "Directory Status": "PureOnline",
         "Interpreted User Type": "PureOnlineTeamsOnlyUser",
         "Audio Conferencing": "On",
         "Phone Systems": "On",
         "Calling Plan": "None",
-        "Position": "Sales Manager",
-        "Department": "Sales",
+        "Job Title": "Head of Sales and Marketing Department, Chief Financial Officer",
+        "Department": "Sales and Marketing",
+        "Manager": "None",
+        "Employment Start Date": "2024-01-15",
+        "Office Location": "Tbilisi Office, 7th Floor",
+        "Skills": [
+          "Sales Strategy",
+          "Team Leadership",
+          "Negotiation",
+          "Market Research",
+          "CRM Systems (Salesforce, HubSpot)",
+          "B2B Sales",
+          "Marketing Analytics",
+          "Public Speaking",
+          "Content Marketing"
+        ],
         "Education": {
-          "Degree": "Bachelor of Business Administration",
-          "Major": "Sales and Marketing",
-          "University": "Bussiness and Technology University",
+          "Degree": "Bachelor's in Business Administration",
+          "University": "Business and Technology University",
           "Graduation Year": 2022
         },
-        "Experience": [
-          {
-            "Position": "Sales Associate",
-            "Company": "Bright Sales Inc.",
-            "Duration": "2022-2022",
-            "Responsibilities": [
-              "Managed client accounts and developed new sales opportunities.",
-              "Collaborated with marketing to identify trends and optimize strategies.",
-              "Exceeded quarterly targets by an average of 15%."
-            ]
-          },
-          {
-            "Position": "Sales Executive",
-            "Company": "Global Trade Solutions",
-            "Duration": "2022-2023",
-            "Responsibilities": [
-              "Led a team of 5 associates and supported their professional growth.",
-              "Developed strategies for reaching untapped markets.",
-              "Increased revenue in new territories by 25% over two years."
-            ]
-          }
-        ],
-        "Skills": [
-          "Customer Relationship Management (CRM)",
-          "Lead Generation",
-          "Sales Forecasting",
-          "Negotiation",
-          "Market Analysis"
-        ],
         "Certifications": [
-          {
-            "Certification": "Certified Sales Professional (CSP)",
-            "Year": 2018,
-            "Institution": "National Association of Sales Professionals"
-          },
-          {
-            "Certification": "Digital Marketing",
-            "Year": 2019,
-            "Institution": "HubSpot Academy"
-          }
+          "Certified Sales Leadership Professional",
+          "Google Analytics Certification"
         ],
+        "Languages": [
+          "English (Fluent)",
+          "Georgian (Native)",
+          "Russian (Advanced)"
+        ],
+        "Birthday": "23-07-2000",
+        "Emergency Contact": {
+          "Name": "Keti Nakeuri",
+          "Phone": "+995 555 123 987",
+          "Relationship": "Sister"
+        },
+      
         "salary": [
           { "month": "January", "amount": 2500, "currency": "EUR" },
           { "month": "February", "amount": 2600, "currency": "EUR" },
@@ -137,17 +128,45 @@
         ]
       },
       {
-        "User Id": "8aae74d6-12f1-4c5a-9734-931e54432fa0",
-        "Display Name": "Christie Cline",
-        "User name": "c.cline@test.com",
-        "Phone Number": "+995 599 77 77 77",
-        "Location": "US",
+        "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
+        "Display Name": "Ethan Miller",
+        "E-mail": "ethan.miller@company.com",
+        "Phone Number": "+1-555-5678",
+        "Location": "Seattle, USA",
         "Directory Status": "PureOnline",
         "Interpreted User Type": "PureOnlineTeamsOnlyUser",
         "Audio Conferencing": "On",
         "Phone Systems": "On",
-        "Calling Plan": "None",
-        "salary": [
+        "Calling Plan": "Basic",
+        "Job Title": "Software Engineer",
+        "Department": "Development",
+        "Manager": "David Tavdgiridze",
+        "Employment Start Date": "2024-03-10",
+        "Office Location": "Tbilisi Office, 5th floor",
+        "Skills": [
+          "Python", 
+          "JavaScript", 
+          "React"
+        ],
+        "Education": {
+            "Degree": "Bachelor's in Computer Science",
+            "University": "University of Washington",
+            "Graduation Year": 2020
+        },
+        "Certifications": [
+          "AWS Certified Developer"
+        ],
+        "Languages": [
+          "English"
+        ],
+        "Birthday": "1995-06-14",
+        "Emergency Contact": {
+            "Name": "Emily Miller",
+            "Phone": "+1-555-1122",
+            "Relationship": "Sister"
+        },
+         "salary": 
+          [
           { "month": "January", "amount": 450000, "currency": "JPY" },
           { "month": "February", "amount": 455000, "currency": "JPY" },
           { "month": "March", "amount": 460000, "currency": "JPY" },
@@ -160,53 +179,51 @@
           { "month": "October", "amount": 485000, "currency": "JPY" },
           { "month": "November", "amount": 490000, "currency": "JPY" },
           { "month": "December", "amount": 495000, "currency": "JPY" }
-        ],
-        "job_details": {
-          "title": "Software Developer",
-          "department": "Engineering",
-          "responsibilities": [
-            "Assist in the development of web applications",
-            "Write and maintain basic code in Python and JavaScript",
-            "Collaborate on small feature updates under supervision",
-            "Conduct initial debugging and troubleshooting of issues"
-          ],
-          "skills": [
-            "Python (basic proficiency)",
-            "JavaScript (basic understanding)",
-            "Version control (Git)",
-            "HTML & CSS"
-          ],
-          "education": {
-            "degree": "Bachelor of Science in Computer Science",
-            "institution": "University of Tokyo",
-            "graduation_year": 2022
-          },
-          "experience": [
-            {
-              "role": "Software Developer Intern",
-              "company": "TechWave Solutions",
-              "duration": "6 months",
-              "responsibilities": [
-                "Assisted with frontend development for small projects",
-                "Wrote simple scripts for internal automation",
-                "Shadowed senior developers to understand workflows"
-              ]
-            }
-          ]
-        }
-      },
+          ] 
+      },   
       {
-        "User Id": "e0ad0058-9c78-43f6-8faa-28b6e2368b04",
-        "Display Name": "Debra Berger",
-        "User name": "DebraB@M365x40699634.OnMicrosoft.com",
-        "Phone Number": "",
-        "Location": "US",
+        "User Id": "3f7a053b-3a0e-408b-b913-bc3789ec1ac6",
+        "Display Name": "Ryan Patel",
+        "E-mail": "ryan.patel@company.com",
+        "Phone Number": "+995 555 321 654",
+        "Location": "Tbilisi, Georgia",
         "Directory Status": "PureOnline",
         "Interpreted User Type": "PureOnlineTeamsOnlyUser",
         "Audio Conferencing": "On",
         "Phone Systems": "On",
         "Calling Plan": "None",
-        "salary": [
+        "Job Title": "Software Developer",
+        "Department": "Development",
+        "Manager": "David Tavdgiridze",
+        "Employment Start Date": "2024-03-10",
+        "Office Location": "Tbilisi Office, 5th Floor",
+        "Skills": [
+          "HTML, CSS, JavaScript",
+          "React.js, Node.js",
+          "Problem Solving",
+          "Git Version Control",
+          "Agile Methodology"
+        ],
+        "Education": {
+          "Degree": "B.Sc. in Computer Science",
+          "University": "Tbilisi State University",
+          "Graduation Year": 2020
+        },
+        "Certifications": [
+          "Certified Frontend Developer"
+        ],
+        "Languages": [
+          "English (Fluent)",
+          "Georgian (Native)"
+        ],
+        "Birthday": "1997-02-14",
+        "Emergency Contact": {
+          "Name": "Vikram Patel",
+          "Phone": "+995 555 456 789",
+          "Relationship": "Father"
+        },
+        "salary": 
+        [
           { "month": "January", "amount": 2000, "currency": "GBP" },
           { "month": "February", "amount": 2100, "currency": "GBP" },
           { "month": "March", "amount": 2050, "currency": "GBP" },
@@ -219,229 +236,181 @@
           { "month": "October", "amount": 2300, "currency": "GBP" },
           { "month": "November", "amount": 2350, "currency": "GBP" },
           { "month": "December", "amount": 2400, "currency": "GBP" }
-        ],
-        "Education": [
-          {
-            "degree": "Bachelor of Science in Computer Science",
-            "institution": "University of London",
-            "year_completed": 2023
-          }
-        ],
-        "Skills": [
-          "Basic HTML and CSS",
-          "Python fundamentals",
-          "Introductory JavaScript",
-          "Basic SQL for data queries",
-          "Familiarity with Git version control"
-        ],
-        "Certifications": [
-          {
-            "title": "Introduction to Python Programming",
-            "provider": "Coursera",
-            "year_issued": 2023
-          }
-        ],
-        "Projects": [
-          {
-            "title": "Personal Portfolio Website",
-            "description": "Developed a personal portfolio website to showcase projects and skills, using basic HTML, CSS, and introductory JavaScript.",
-            "year": 2023
-          }
         ]
       },
       
-    {
-      "User Id": "08b90c5c-d3be-4232-bbf9-149eb1eb8d2c",
-      "Display Name": "Patti Fernandez",
-      "User name": "PattiF@M365x40699634.OnMicrosoft.com",
-      "Phone Number": "",
-      "Location": "US",
-      "Directory Status": "PureOnline",
-      "Interpreted User Type": "PureOnlineTeamsOnlyUser",
-      "Audio Conferencing": "On",
-      "Phone Systems": "On",
-      "Calling Plan": "None",
-      "salary": [
-        { "month": "January", "amount": 18000, "currency": "CNY" },
-        { "month": "February", "amount": 18200, "currency": "CNY" },
-        { "month": "March", "amount": 18350, "currency": "CNY" },
-        { "month": "April", "amount": 18400, "currency": "CNY" },
-        { "month": "May", "amount": 18500, "currency": "CNY" },
-        { "month": "June", "amount": 18350, "currency": "CNY" },
-        { "month": "July", "amount": 18000, "currency": "CNY" },
-        { "month": "August", "amount": 18750, "currency": "CNY" },
-        { "month": "September", "amount": 18900, "currency": "CNY" },
-        { "month": "October", "amount": 19100, "currency": "CNY" },
-        { "month": "November", "amount": 19250, "currency": "CNY" },
-        { "month": "December", "amount": 19400, "currency": "CNY" }
-      ]
-    },
-    {
-        "\ufeffUser Id": "bc7530e9-b732-48f7-b331-c84f18041c73",
-        " Display Name": "Alex Wilber",
-        " User name": "AlexW@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "0f999b0d-d7b3-44f2-b999-53eb33781b7e",
-        " Display Name": "Nestor Wilke",
-        " User name": "NestorW@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "fd2cc58a-6d3e-47ad-8986-799d408b4ccf",
-        " Display Name": "Johanna Lorenz",
-        " User name": "JohannaL@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "061bb22b-4f07-488e-9f90-b0f5f9c99d5a",
-        " Display Name": "Allan Deyoung",
-        " User name": "AllanD@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "92eae9d2-7584-451b-abd5-58c125fc2266",
-        " Display Name": "Adele Vance",
-        " User name": "AdeleV@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "d6dc31aa-481e-4deb-b122-07a692eba20e",
-        " Display Name": "Irvin Sayers",
-        " User name": "IrvinS@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "e112b975-9a84-403a-9cbd-6f1849e3215f",
-        " Display Name": "Lynne Robbins",
-        " User name": "LynneR@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "9d4f430c-3e56-4de6-bcba-7bbc9343f3f3",
-        " Display Name": "Megan Bowen",
-        " User name": "MeganB@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "c0b7d884-3269-40f0-8d2f-08f28dc176ad",
-        " Display Name": "Lee Gu",
-        " User name": "LeeG@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "086b5f2d-898b-4f73-b230-20671adc5b69",
-        " Display Name": "Grady Archie",
-        " User name": "GradyA@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "8e53c638-f998-40aa-b3bc-9f06c0479587",
-        " Display Name": "Isaiah Langer",
-        " User name": "IsaiahL@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "798c0297-2cb2-46b2-9f78-50705327a1e7",
-        " Display Name": "Diego Siciliani",
-        " User name": "DiegoS@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "7dcbc9cf-84fb-4abe-b216-248b4ec18bb7",
-        " Display Name": "Lidia Holloway",
-        " User name": "LidiaH@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    },
-    {
-        "\ufeffUser Id": "f4c1d7ab-ccb5-4a58-a1ed-faaa2f2535d6",
-        " Display Name": "Miriam Graham",
-        " User name": "MiriamG@M365x40699634.OnMicrosoft.com",
-        " Phone Number": "",
-        " Location": "US",
-        " Directory Status": "PureOnline",
-        " Interpreted User Type": "PureOnlineTeamsOnlyUser",
-        "  Audio Conferencing": "On",
-        " Phone Systems": "On",
-        " Calling Plan ": "None"
-    }
+      {
+        "User Id": "f11dca02-9b8b-4740-b9c1-ecb36fd5a4b7",
+        "Display Name": "Sophia Green",
+        "E-mail": "sophia.green@company.com",
+        "Phone Number": "+995 555 234 876",
+        "Location": "Tbilisi, Georgia",
+        "Directory Status": "PureOnline",
+        "Interpreted User Type": "PureOnlineTeamsOnlyUser",
+        "Audio Conferencing": "On",
+        "Phone Systems": "On",
+        "Calling Plan": "None",
+        "Job Title": "Marketing Manager",
+        "Department": "Sales and Marketing",
+        "Manager": "Giorgi Nakeuri",
+        "Employment Start Date": "2024-03-10",
+        "Office Location": "Tbilisi Office, 6th Floor",
+        "Skills": [
+          "SEO, SEM",
+          "Content Strategy",
+          "Google Analytics",
+          "Email Marketing",
+          "Brand Positioning"
+        ],
+        "Education": {
+          "Degree": "M.A. in Marketing",
+          "University": "Batumi University",
+          "Graduation Year": 2016
+        },
+        "Certifications": [
+          "Google Analytics Certification"
+        ],
+        "Languages": [
+          "English (Fluent)",
+          "Georgian (Native)"
+        ],
+        "Birthday": "1992-10-20",
+        "Emergency Contact": {
+          "Name": "Julia Green",
+          "Phone": "+995 555 678 123",
+          "Relationship": "Mother"
+        },
+        "salary": 
+        [
+          { "month": "January", "amount": 2000, "currency": "GBP" },
+          { "month": "February", "amount": 2100, "currency": "GBP" },
+          { "month": "March", "amount": 2050, "currency": "GBP" },
+          { "month": "April", "amount": 2100, "currency": "GBP" },
+          { "month": "May", "amount": 2150, "currency": "GBP" },
+          { "month": "June", "amount": 2050, "currency": "GBP" },
+          { "month": "July", "amount": 2000, "currency": "GBP" },
+          { "month": "August", "amount": 2200, "currency": "GBP" },
+          { "month": "September", "amount": 2250, "currency": "GBP" },
+          { "month": "October", "amount": 2300, "currency": "GBP" },
+          { "month": "November", "amount": 2350, "currency": "GBP" },
+          { "month": "December", "amount": 2400, "currency": "GBP" }
+        ]
+      },
+      {
+        "User Id": "b40a7bbf-df96-4b2b-9271-253283207497",
+        "Display Name": "Emma Wright",
+        "E-mail": "emma.wright@company.com",
+        "Phone Number": "+995 555 543 210",
+        "Location": "Tbilisi, Georgia",
+        "Directory Status": "PureOnline",
+        "Interpreted User Type": "PureOnlineTeamsOnlyUser",
+        "Audio Conferencing": "On",
+        "Phone Systems": "On",
+        "Calling Plan": "None",
+        "Job Title": "Sales Representative",
+        "Department": "Sales and Marketing",
+        "Manager": "Giorgi Nakeuri",
+        "Employment Start Date": "2024-03-10",
+        "Office Location": "Tbilisi Office, 6th Floor",
+        "Skills": [
+          "Lead Generation",
+          "Sales Reporting",
+          "Negotiation",
+          "Market Research",
+          "Customer Relationship Management (CRM)"
+        ],
+        "Education": {
+          "Degree": "B.A. in Business Administration",
+          "University": "Tbilisi State University",
+          "Graduation Year": 2019
+        },
+        "Certifications": [
+          "Certified Sales Professional"
+        ],
+        "Languages": [
+          "English (Fluent)",
+          "Georgian (Native)"
+        ],
+        "Birthday": "1994-04-05",
+        "Emergency Contact": {
+          "Name": "Peter Wright",
+          "Phone": "+995 555 234 567",
+          "Relationship": "Father"
+        },
+        "salary": 
+        [
+          { "month": "January", "amount": 2000, "currency": "GBP" },
+          { "month": "February", "amount": 2100, "currency": "GBP" },
+          { "month": "March", "amount": 2050, "currency": "GBP" },
+          { "month": "April", "amount": 2100, "currency": "GBP" },
+          { "month": "May", "amount": 2150, "currency": "GBP" },
+          { "month": "June", "amount": 2050, "currency": "GBP" },
+          { "month": "July", "amount": 2000, "currency": "GBP" },
+          { "month": "August", "amount": 2200, "currency": "GBP" },
+          { "month": "September", "amount": 2250, "currency": "GBP" },
+          { "month": "October", "amount": 2300, "currency": "GBP" },
+          { "month": "November", "amount": 2350, "currency": "GBP" },
+          { "month": "December", "amount": 2400, "currency": "GBP" }
+        ]
+      },
+      {
+        "User Id": "4b30e033-bcb5-428b-a1b4-bf11180c3b99",
+        "Display Name": "Elena Turner",
+        "E-mail": "elena.turner@company.com",
+        "Phone Number": "+995 555 789 432",
+        "Location": "Tbilisi, Georgia",
+        "Directory Status": "PureOnline",
+        "Interpreted User Type": "PureOnlineTeamsOnlyUser",
+        "Audio Conferencing": "On",
+        "Phone Systems": "On",
+        "Calling Plan": "None",
+        "Job Title": "Human Resources Manager",
+        "Department": "Management",
+        "Manager": "None",
+        "Employment Start Date": "2024-03-10",
+        "Office Location": "Tbilisi Office, 7th Floor",
+        "Skills": [
+          "Human Resources Management",
+          "Talent Acquisition",
+          "Employee Relations",
+          "Conflict Resolution",
+          "Team Leadership"
+        ],
+        "Education": {
+          "Degree": "M.A. in Human Resources Management",
+          "University": "Tbilisi Business University",
+          "Graduation Year": 2018
+        },
+        "Certifications": [
+          "Certified Professional in Human Resources (PHR)"
+        ],
+        "Languages": [
+          "English (Fluent)",
+          "Georgian (Native)"
+        ],
+        "Birthday": "1990-08-25",
+        "Emergency Contact": {
+          "Name": "Sophia Turner",
+          "Phone": "+995 555 321 987",
+          "Relationship": "Mother"
+        },
+        "salary": 
+        [
+          { "month": "January", "amount": 2000, "currency": "GBP" },
+          { "month": "February", "amount": 2100, "currency": "GBP" },
+          { "month": "March", "amount": 2050, "currency": "GBP" },
+          { "month": "April", "amount": 2100, "currency": "GBP" },
+          { "month": "May", "amount": 2150, "currency": "GBP" },
+          { "month": "June", "amount": 2050, "currency": "GBP" },
+          { "month": "July", "amount": 2000, "currency": "GBP" },
+          { "month": "August", "amount": 2200, "currency": "GBP" },
+          { "month": "September", "amount": 2250, "currency": "GBP" },
+          { "month": "October", "amount": 2300, "currency": "GBP" },
+          { "month": "November", "amount": 2350, "currency": "GBP" },
+          { "month": "December", "amount": 2400, "currency": "GBP" }
+        ]
+      }
+      
 ]
+
+}

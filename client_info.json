@@ -1,0 +1,51 @@
+{
+    "_comment": "This file contains details of company's existing clients that our sales reps are working on.",
+    "Company Clients":
+    [
+        {
+            "Client Id": "a1b2c3d4-e5f6-7g8h-9i10jklm11n",
+            "Client Name": "Techify Solutions",
+            "Email": "contact@client.com",
+            "Phone Number": "+995 599 123 456",
+            "Address": "Rustaveli Ave. N1",
+            "Account Manager": "Emma Wright",
+            "Contract Details": {
+                "Start Date": "2024-03-01",
+                "End Date": "2025-03-01",
+                "Contract Value": "50000 USD",
+                "Payment Terms": "Net 30",
+                "Contract Type": "Annual Maintenance"
+            }
+        },
+        {
+            "Client Id": "b2c3d4e5-f6g7h8i9-j10kl11mn12o",
+            "Client Name": "Innovate Systems",
+            "Email": "support@client.com",
+            "Phone Number": "+995 593 789 012",
+            "Address": "Chavchavadze Ave. N1",
+            "Account Manager": "Emma Wright",
+            "Contract Details": {
+                "Start Date": "2024-05-15",
+                "End Date": "2026-05-15",
+                "Contract Value": "120000 USD",
+                "Payment Terms": "Net 60",
+                "Contract Type": "Project-Based"
+            }
+        },
+        {
+            "Client Id": "c3d4e5f6-g7h8i9j10-kl11m12n13o",
+            "Client Name": "Global Tech Solutions",
+            "Email": "info@client.com",
+            "Phone Number": "+995 595 456 789",
+            "Address": "Vaja Pshavela Ave. N1",
+            "Account Manager": "Emma Wright",
+            "Contract Details": {
+                "Start Date": "2024-07-01",
+                "End Date": "2025-07-01",
+                "Contract Value": "200000 USD",
+                "Payment Terms": "Net 45",
+                "Contract Type": "Service Agreement"
+            }
+        }
+    ]
+}

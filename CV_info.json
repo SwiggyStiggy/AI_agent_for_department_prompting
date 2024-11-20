@@ -1,0 +1,207 @@
+{
+  "_comment": "This file contains CVs which were previously received and are now archived.",
+  "cvs":
+[  
+   
+    {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@email.com",
+      "phone": "+1-555-123-4567",
+      "address": "123 Oak Street, Springfield, IL 62701, USA",
+      "job_experience": [
+        {
+          "position": "Software Engineer",
+          "company": "Tech Solutions Inc.",
+          "start_date": "2020-06-01",
+          "end_date": "Present",
+          "responsibilities": [
+            "Developed and maintained web applications.",
+            "Collaborated with cross-functional teams to deliver high-quality software.",
+            "Led code reviews and provided mentorship to junior developers."
+          ]
+        },
+        {
+          "position": "Junior Developer",
+          "company": "Web Dev Co.",
+          "start_date": "2018-05-01",
+          "end_date": "2020-05-01",
+          "responsibilities": [
+            "Assisted in the development of client-side applications.",
+            "Performed testing and debugging on software applications."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "E-Commerce Website",
+          "description": "Developed a fully functional e-commerce platform for a retail client.",
+          "technologies_used": ["React", "Node.js", "MongoDB"]
+        }
+      ],
+      "achievements": [
+        "Employee of the Year, 2022 at Tech Solutions Inc.",
+        "Completed a leadership training program"
+      ],
+      "skills": ["JavaScript", "React", "Node.js", "MongoDB", "Leadership"],
+      "certifications": [
+        {
+          "name": "Certified ScrumMaster (CSM)",
+          "issued_by": "Scrum Alliance",
+          "date": "2021-08-15"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "email": "bob.smith@email.com",
+      "phone": "+1-555-234-5678",
+      "address": "456 Maple Road, Denver, CO 80203, USA",
+      "job_experience": [
+        {
+          "position": "Marketing Manager",
+          "company": "Creative Marketing Co.",
+          "start_date": "2019-03-01",
+          "end_date": "Present",
+          "responsibilities": [
+            "Develop and execute marketing strategies for new product launches.",
+            "Analyze market trends and customer data to refine marketing efforts.",
+            "Lead a team of 5 marketing specialists."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Brand Awareness Campaign",
+          "description": "Led a national brand awareness campaign that increased engagement by 40%.",
+          "technologies_used": ["Google Analytics", "Facebook Ads", "Email Marketing"]
+        }
+      ],
+      "achievements": [
+        "Increased brand engagement by 40% in the first year of the campaign.",
+        "Recognized as Top Performer in Marketing for 2022"
+      ],
+      "skills": ["Digital Marketing", "SEO", "Content Strategy", "Team Leadership"],
+      "certifications": [
+        {
+          "name": "Google Analytics Certification",
+          "issued_by": "Google",
+          "date": "2020-07-01"
+        }
+      ]
+    },
+    {
+      "name": "Charlie Davis",
+      "email": "charlie.davis@email.com",
+      "phone": "+1-555-345-6789",
+      "address": "789 Pine Avenue, Chicago, IL 60605, USA",
+      "job_experience": [
+        {
+          "position": "Product Designer",
+          "company": "Innovative Design Studio",
+          "start_date": "2017-04-01",
+          "end_date": "Present",
+          "responsibilities": [
+            "Design user-friendly interfaces for mobile and web applications.",
+            "Collaborate with developers to ensure smooth implementation of designs.",
+            "Conduct user research and usability testing."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Mobile App Redesign",
+          "description": "Redesigned the UI/UX for a popular mobile app, resulting in a 30% increase in user retention.",
+          "technologies_used": ["Sketch", "Figma", "InVision"]
+        }
+      ],
+      "achievements": [
+        "Won 'Best Design' award at the 2022 UX Design Conference.",
+        "Increased app retention by 30% after redesigning the user interface."
+      ],
+      "skills": ["UI/UX Design", "Sketch", "Figma", "User Research", "Prototyping"],
+      "certifications": [
+        {
+          "name": "UX Design Professional Certification",
+          "issued_by": "Interaction Design Foundation",
+          "date": "2021-09-15"
+        }
+      ]
+    },
+    {
+      "name": "David Lee",
+      "email": "david.lee@email.com",
+      "phone": "+1-555-456-7890",
+      "address": "101 Birch Lane, Los Angeles, CA 90001, USA",
+      "job_experience": [
+        {
+          "position": "Data Scientist",
+          "company": "Data Insights Corp.",
+          "start_date": "2020-01-01",
+          "end_date": "Present",
+          "responsibilities": [
+            "Analyze large datasets to extract valuable insights for business decisions.",
+            "Build predictive models using machine learning algorithms.",
+            "Collaborate with stakeholders to define data-driven strategies."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Customer Churn Prediction Model",
+          "description": "Developed a machine learning model to predict customer churn, leading to a 20% reduction in churn rates.",
+          "technologies_used": ["Python", "Scikit-learn", "TensorFlow"]
+        }
+      ],
+      "achievements": [
+        "Reduced customer churn by 20% through data-driven insights.",
+        "Published a paper on predictive analytics in 'Data Science Journal'."
+      ],
+      "skills": ["Python", "Machine Learning", "Data Visualization", "SQL", "Predictive Analytics"],
+      "certifications": [
+        {
+          "name": "Certified Data Scientist",
+          "issued_by": "Data Science Association",
+          "date": "2021-04-01"
+        }
+      ]
+    },
+    {
+      "name": "Eva White",
+      "email": "eva.white@email.com",
+      "phone": "+1-555-567-8901",
+      "address": "202 Cedar Street, Austin, TX 73301, USA",
+      "job_experience": [
+        {
+          "position": "HR Manager",
+          "company": "People First HR",
+          "start_date": "2018-07-01",
+          "end_date": "Present",
+          "responsibilities": [
+            "Managed recruitment and onboarding processes for new hires.",
+            "Implemented employee training and development programs.",
+            "Handled employee relations and conflict resolution."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Employee Wellness Program",
+          "description": "Introduced a company-wide wellness program, improving employee satisfaction by 25%.",
+          "technologies_used": ["Microsoft Office", "Slack", "Zoom"]
+        }
+      ],
+      "achievements": [
+        "Increased employee satisfaction by 25% through wellness initiatives.",
+        "Promoted to HR Manager after 2 years of exceptional performance."
+      ],
+      "skills": ["Recruitment", "Employee Relations", "Training & Development", "Conflict Resolution"],
+      "certifications": [
+        {
+          "name": "SHRM-CP (Certified Professional)",
+          "issued_by": "Society for Human Resource Management",
+          "date": "2020-05-01"
+        }
+      ]
+    }
+]
+}

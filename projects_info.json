@@ -1,0 +1,69 @@
+{
+    "_comment": "This file contains details of on going projects that our Development team is working on.",
+    "Company Project":
+
+    [
+        {
+            "Project ID": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+            "Project Name": "Website Redesign",
+            "Department": "Development",
+            "Start Date": "2024-03-01",
+            "End Date": "2024-06-30",
+            "Project Description": "Redesigning the company website to improve user experience and accessibility.",
+            "Assigned Team Members": [
+                "Entire Development team"
+            ],
+            "Status": "Ongoing",
+            "Key Achievements": [
+                "Completed wireframe design",
+                "Launched initial beta version"
+            ],
+            "Technologies/Tools Used": [
+                "React",
+                "Node.js",
+                "Figma"
+            ]
+        },
+        {
+            "Project ID": "p1q2r3s4-t5u6-v7w8-x9y0-1z2a3b4c5d6e",
+            "Project Name": "Mobile App Development",
+            "Department": "Development",
+            "Start Date": "2024-01-20",
+            "End Date": "2024-08-15",
+            "Project Description": "Development of a mobile application for the company's services.",
+            "Assigned Team Members": [
+                "Entire Development team"
+            ],
+            "Status": "Ongoing",
+            "Key Achievements": [
+                "Launched MVP (Minimum Viable Product)",
+                "Completed app design"
+            ],
+            "Technologies/Tools Used": [
+                "React Native",
+                "Firebase",
+                "Xcode"
+            ]
+        },
+        {
+            "Project ID": "m1n2o3p4-q5r6-s7t8-u9v0-w1x2y3z4a5b6",
+            "Project Name": "Internal Dashboard Development",
+            "Department": "Development",
+            "Start Date": "2024-04-10",
+            "End Date": "2024-12-01",
+            "Project Description": "Building an internal dashboard for monitoring company performance and KPIs.",
+            "Assigned Team Members": [
+                "Ryan Patel"
+            ],
+            "Status": "Ongoing",
+            "Key Achievements": [
+                "Integrated real-time data",
+                "Developed custom reporting tools"
+            ],
+            "Technologies/Tools Used": [
+                "React.js", 
+                "Node.js"
+            ]
+        }
+    ]
+}
