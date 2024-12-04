@@ -1,0 +1,97 @@
+{
+    "_comment": "This file contains list of departments of the company and additional information of them.",
+    "departments":
+
+    [
+        {
+          "department_id": "1",
+          "department_name": "Development Department",
+          "department_head": {
+            "id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
+            "name": "David Tavdgiridze",
+            "role": "Head of Development Department, Chief Technology Officer"
+          },
+          "members": [
+            {
+              "id": "f11dca02-9b8b-4740-b9c1-ecb36fd5a4b7",
+              "name": "Ethan Miller",
+              "role": "Software Engineer"
+            },
+            {
+              "id": "3f7a053b-3a0e-408b-b913-bc3789ec1ac6",
+              "name": "Ryan Patel",
+              "role": "Software Developer"
+            },
+            {
+              "id": "d35b7081-1d5d-43fe-a557-1fa39b68296b",
+              "name": "Nino Beridze",
+              "role": "System Administrator"
+            }
+          ],
+          "key_functions": [
+            "Develop and maintain software systems",
+            "Manage infrastructure and IT systems",
+            "Conduct software testing and quality assurance"
+          ]
+        },
+        {
+          "department_id": "2",
+          "department_name": "Sales and Marketing Department",
+          "department_head": {
+            "id": "d35b7081-1d5d-43fe-a557-1fa39b68296b",
+            "name": "Giorgi Nakeuri",
+            "role": "Head of Sales and Marketing Department, Chief Financial Officer"
+          },
+          "members": [
+            {
+              "id": "f11dca02-9b8b-4740-b9c1-ecb36fd5a4b7",
+              "name": "Sophia Green",
+              "role": "Marketing Manager"
+            },
+            {
+              "id": "4b30e033-bcb5-428b-a1b4-bf11180c3b99",
+              "name": "Emma Wright",
+              "role": "Sales Representative"
+            }
+          ],
+          "key_functions": [
+            "Develop and execute marketing campaigns",
+            "Manage client relationships",
+            "Generate sales leads and opportunities"
+          ]
+        },
+        {
+          "department_id": "3",
+          "department_name": "Human Resources Department",
+          "department_head": {
+            "id": "4b30e033-bcb5-428b-a1b4-bf11180c3b99",
+            "name": "Elena Turner",
+            "role": "Human Resources Manager"
+          },
+          "members": [],
+          "key_functions": [
+            "Recruitment and hiring",
+            "Employee engagement and retention",
+            "Handle employee benefits and payroll"
+          ]
+        },
+
+        {
+         "department_id": "4",
+          "department_name": "Finance Department",
+          "department_head": {
+            "id": "4f5a7e91-cd63-44e7-a0c1-bb9aef4b1234",
+            "name": "Tamar Gabunia",
+            "role": "Finance Specialist"
+          },
+          "members": [],
+          "key_functions": [
+            "Budget planning and management",
+            "Accounting and financial reporting",
+            "Payroll management",
+            "Tax compliance and filing",
+            "Expense tracking and control"
+          ]   
+        }
+      ]
+}

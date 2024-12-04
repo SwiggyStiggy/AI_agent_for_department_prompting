@@ -1,0 +1,34 @@
+{
+    "roles": {
+      "Admin": {
+        "access": {
+          "read": ["user_info.json", "department_info.json", "CV_info.json", "projects_info.json", "client_info.json", "finance_info.json"],
+          "write": ["user_info.json", "department_info.json", "CV_info.json", "projects_info.json", "client_info.json", "finance_info.json"]
+        }
+      },
+      "Developer": {
+        "access": {
+          "read": ["projects_info.json"],
+          "write": []
+        }
+      },
+      "Sales": {
+        "access": {
+          "read": ["client_info.json"],
+          "write": []
+        }
+      },
+      "HR": {
+        "access": {
+          "read": ["user_info.json", "department_info.json", "CV_info.json"],
+          "write": ["user_info.json", "department_info.json", "CV_info.json"]
+        }
+      },
+      "Finance": {
+        "access": {
+          "read": ["user_info.json", "finance_info.json"],
+          "write": ["user_info.json", "finance_info.json"]
+        }
+      }
+    }
+  }

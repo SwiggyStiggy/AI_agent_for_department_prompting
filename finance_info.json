@@ -1,0 +1,336 @@
+{
+    "_comment": "This file contains financial management data for employees, including salaries, bonuses, deductions, tax details, and reimbursements.",
+    "Employees": [
+        
+        {
+            "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
+            "Display Name": "David Tavdgiridze",
+            "Salary Details": [
+                { "month": "January", "amount": 3000, "currency": "USD" },
+                { "month": "February", "amount": 3200, "currency": "USD" },
+                { "month": "March", "amount": 3100, "currency": "USD" },
+                { "month": "April", "amount": 3150, "currency": "USD" },
+                { "month": "May", "amount": 3200, "currency": "USD" },
+                { "month": "June", "amount": 3100, "currency": "USD" },
+                { "month": "July", "amount": 3000, "currency": "USD" },
+                { "month": "August", "amount": 3250, "currency": "USD" },
+                { "month": "September", "amount": 3300, "currency": "USD" },
+                { "month": "October", "amount": 3350, "currency": "USD" },
+                { "month": "November", "amount": 3400, "currency": "USD" },
+                { "month": "December", "amount": 3500, "currency": "USD" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 6000,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 1500 },
+                    { "quarter": "Q2", "amount": 1600 },
+                    { "quarter": "Q3", "amount": 1550 },
+                    { "quarter": "Q4", "amount": 1700 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 250, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 400, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-987654321",
+                "Tax Rate": "25%",
+                "Annual Tax Paid": 9000
+            },
+            "Reimbursements": [
+                { "type": "Work Travel", "amount": 600, "date": "2024-06-20" },
+                { "type": "Conference Attendance", "amount": 1000, "date": "2024-09-15" }
+            ]
+        },
+
+        {
+            "User Id": "d35b7081-1d5d-43fe-a557-1fa39b68296b",
+            "Display Name": "Giorgi Nakeuri",
+            "Salary Details": [
+                { "month": "January", "amount": 2500, "currency": "EUR" },
+                { "month": "February", "amount": 2600, "currency": "EUR" },
+                { "month": "March", "amount": 2550, "currency": "EUR" },
+                { "month": "April", "amount": 2600, "currency": "EUR" },
+                { "month": "May", "amount": 2650, "currency": "EUR" },
+                { "month": "June", "amount": 2550, "currency": "EUR" },
+                { "month": "July", "amount": 2500, "currency": "EUR" },
+                { "month": "August", "amount": 2700, "currency": "EUR" },
+                { "month": "September", "amount": 2750, "currency": "EUR" },
+                { "month": "October", "amount": 2800, "currency": "EUR" },
+                { "month": "November", "amount": 2850, "currency": "EUR" },
+                { "month": "December", "amount": 2900, "currency": "EUR" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 4500,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 1100 },
+                    { "quarter": "Q2", "amount": 1150 },
+                    { "quarter": "Q3", "amount": 1200 },
+                    { "quarter": "Q4", "amount": 1050 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 200, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 300, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-112233445",
+                "Tax Rate": "18%",
+                "Annual Tax Paid": 6500
+            },
+            "Reimbursements": [
+                { "type": "Training Course", "amount": 700, "date": "2024-04-10" },
+                { "type": "Work Travel", "amount": 500, "date": "2024-08-25" }
+            ]
+        },
+        
+        {
+            "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
+            "Display Name": "Ethan Miller",
+            "Salary Details": [
+                { "month": "January", "amount": 450000, "currency": "JPY" },
+                { "month": "February", "amount": 455000, "currency": "JPY" },
+                { "month": "March", "amount": 460000, "currency": "JPY" },
+                { "month": "April", "amount": 465000, "currency": "JPY" },
+                { "month": "May", "amount": 470000, "currency": "JPY" },
+                { "month": "June", "amount": 455000, "currency": "JPY" },
+                { "month": "July", "amount": 450000, "currency": "JPY" },
+                { "month": "August", "amount": 475000, "currency": "JPY" },
+                { "month": "September", "amount": 480000, "currency": "JPY" },
+                { "month": "October", "amount": 485000, "currency": "JPY" },
+                { "month": "November", "amount": 490000, "currency": "JPY" },
+                { "month": "December", "amount": 495000, "currency": "JPY" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 600000,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 150000 },
+                    { "quarter": "Q2", "amount": 140000 },
+                    { "quarter": "Q3", "amount": 145000 },
+                    { "quarter": "Q4", "amount": 155000 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 35000, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 50000, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-998877665",
+                "Tax Rate": "25%",
+                "Annual Tax Paid": 1800000
+            },
+            "Reimbursements": [
+                { "type": "Office Supplies", "amount": 20000, "date": "2024-03-15" },
+                { "type": "Work Travel", "amount": 80000, "date": "2024-09-20" }
+            ]
+        },
+        
+        {
+            "User Id": "3f7a053b-3a0e-408b-b913-bc3789ec1ac6",
+            "Display Name": "Ryan Patel",
+            "Salary Details": [
+                { "month": "January", "amount": 2000, "currency": "GBP" },
+                { "month": "February", "amount": 2100, "currency": "GBP" },
+                { "month": "March", "amount": 2050, "currency": "GBP" },
+                { "month": "April", "amount": 2100, "currency": "GBP" },
+                { "month": "May", "amount": 2150, "currency": "GBP" },
+                { "month": "June", "amount": 2050, "currency": "GBP" },
+                { "month": "July", "amount": 2000, "currency": "GBP" },
+                { "month": "August", "amount": 2200, "currency": "GBP" },
+                { "month": "September", "amount": 2250, "currency": "GBP" },
+                { "month": "October", "amount": 2300, "currency": "GBP" },
+                { "month": "November", "amount": 2350, "currency": "GBP" },
+                { "month": "December", "amount": 2400, "currency": "GBP" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 3000,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 800 },
+                    { "quarter": "Q2", "amount": 850 },
+                    { "quarter": "Q3", "amount": 900 },
+                    { "quarter": "Q4", "amount": 950 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 150, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 250, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-789456123",
+                "Tax Rate": "25%",
+                "Annual Tax Paid": 7200
+            },
+            "Reimbursements": [
+                { "type": "Travel Expenses", "amount": 300, "date": "2024-06-15" },
+                { "type": "Training Costs", "amount": 500, "date": "2024-08-10" }
+            ]
+        },
+
+        {
+            "User Id": "f11dca02-9b8b-4740-b9c1-ecb36fd5a4b7",
+            "Display Name": "Sophia Green",
+            "Salary Details": [
+                { "month": "January", "amount": 2000, "currency": "GBP" },
+                { "month": "February", "amount": 2100, "currency": "GBP" },
+                { "month": "March", "amount": 2050, "currency": "GBP" },
+                { "month": "April", "amount": 2100, "currency": "GBP" },
+                { "month": "May", "amount": 2150, "currency": "GBP" },
+                { "month": "June", "amount": 2050, "currency": "GBP" },
+                { "month": "July", "amount": 2000, "currency": "GBP" },
+                { "month": "August", "amount": 2200, "currency": "GBP" },
+                { "month": "September", "amount": 2250, "currency": "GBP" },
+                { "month": "October", "amount": 2300, "currency": "GBP" },
+                { "month": "November", "amount": 2350, "currency": "GBP" },
+                { "month": "December", "amount": 2400, "currency": "GBP" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 2500,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 750 },
+                    { "quarter": "Q2", "amount": 800 },
+                    { "quarter": "Q3", "amount": 850 },
+                    { "quarter": "Q4", "amount": 850 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 120, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 200, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-654987321",
+                "Tax Rate": "22%",
+                "Annual Tax Paid": 6400
+            },
+            "Reimbursements": [
+                { "type": "Travel Expenses", "amount": 200, "date": "2024-07-20" },
+                { "type": "Professional Development", "amount": 400, "date": "2024-09-15" }
+            ]
+        },
+        
+        {
+            "User Id": "b40a7bbf-df96-4b2b-9271-253283207497",
+            "Display Name": "Emma Wright",
+            "Salary Details": [
+                { "month": "January", "amount": 2000, "currency": "GBP" },
+                { "month": "February", "amount": 2100, "currency": "GBP" },
+                { "month": "March", "amount": 2050, "currency": "GBP" },
+                { "month": "April", "amount": 2100, "currency": "GBP" },
+                { "month": "May", "amount": 2150, "currency": "GBP" },
+                { "month": "June", "amount": 2050, "currency": "GBP" },
+                { "month": "July", "amount": 2000, "currency": "GBP" },
+                { "month": "August", "amount": 2200, "currency": "GBP" },
+                { "month": "September", "amount": 2250, "currency": "GBP" },
+                { "month": "October", "amount": 2300, "currency": "GBP" },
+                { "month": "November", "amount": 2350, "currency": "GBP" },
+                { "month": "December", "amount": 2400, "currency": "GBP" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 2400,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 600 },
+                    { "quarter": "Q2", "amount": 650 },
+                    { "quarter": "Q3", "amount": 650 },
+                    { "quarter": "Q4", "amount": 500 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 110, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 190, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-985472362",
+                "Tax Rate": "20%",
+                "Annual Tax Paid": 6200
+            },
+            "Reimbursements": [
+                { "type": "Travel Expenses", "amount": 150, "date": "2024-03-10" },
+                { "type": "Professional Development", "amount": 350, "date": "2024-05-18" }
+            ]
+        },
+
+        {
+            "User Id": "4b30e033-bcb5-428b-a1b4-bf11180c3b99",
+            "Display Name": "Elena Turner",
+            "Salary Details": [
+                { "month": "January", "amount": 2000, "currency": "GBP" },
+                { "month": "February", "amount": 2100, "currency": "GBP" },
+                { "month": "March", "amount": 2050, "currency": "GBP" },
+                { "month": "April", "amount": 2100, "currency": "GBP" },
+                { "month": "May", "amount": 2150, "currency": "GBP" },
+                { "month": "June", "amount": 2050, "currency": "GBP" },
+                { "month": "July", "amount": 2000, "currency": "GBP" },
+                { "month": "August", "amount": 2200, "currency": "GBP" },
+                { "month": "September", "amount": 2250, "currency": "GBP" },
+                { "month": "October", "amount": 2300, "currency": "GBP" },
+                { "month": "November", "amount": 2350, "currency": "GBP" },
+                { "month": "December", "amount": 2400, "currency": "GBP" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 2400,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 600 },
+                    { "quarter": "Q2", "amount": 650 },
+                    { "quarter": "Q3", "amount": 650 },
+                    { "quarter": "Q4", "amount": 500 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 110, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 190, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-857462311",
+                "Tax Rate": "20%",
+                "Annual Tax Paid": 6200
+            },
+            "Reimbursements": [
+                { "type": "Travel Expenses", "amount": 150, "date": "2024-03-10" },
+                { "type": "Professional Development", "amount": 350, "date": "2024-05-18" }
+            ]
+        },
+
+        {
+            "User Id": "9a1f5b3c-d4e7-4728-b59c-8e3d354a9f12",
+            "Display Name": "Nino Beridze",
+            "Salary Details": [
+                { "month": "January", "amount": 3000, "currency": "USD" },
+                { "month": "February", "amount": 3200, "currency": "USD" },
+                { "month": "March", "amount": 3100, "currency": "USD" },
+                { "month": "April", "amount": 3150, "currency": "USD" },
+                { "month": "May", "amount": 3200, "currency": "USD" },
+                { "month": "June", "amount": 3100, "currency": "USD" },
+                { "month": "July", "amount": 3000, "currency": "USD" },
+                { "month": "August", "amount": 3250, "currency": "USD" },
+                { "month": "September", "amount": 3300, "currency": "USD" },
+                { "month": "October", "amount": 3350, "currency": "USD" },
+                { "month": "November", "amount": 3400, "currency": "USD" },
+                { "month": "December", "amount": 3500, "currency": "USD" }
+            ],
+            "Bonuses": {
+                "Annual Bonus": 5000,
+                "Quarterly Bonuses": [
+                    { "quarter": "Q1", "amount": 1200 },
+                    { "quarter": "Q2", "amount": 1300 },
+                    { "quarter": "Q3", "amount": 1250 },
+                    { "quarter": "Q4", "amount": 1400 }
+                ]
+            },
+            "Deductions": [
+                { "type": "Health Insurance", "amount": 200, "frequency": "Monthly" },
+                { "type": "Retirement Fund", "amount": 300, "frequency": "Monthly" }
+            ],
+            "Tax Information": {
+                "Tax ID": "TAX-123456789",
+                "Tax Rate": "20%",
+                "Annual Tax Paid": 7200
+            },
+            "Reimbursements": [
+                { "type": "Work Travel", "amount": 450, "date": "2024-05-15" },
+                { "type": "Office Supplies", "amount": 120, "date": "2024-07-10" }
+            ]
+
+            
+        }
+        
+    ]
+}

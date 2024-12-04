@@ -5,6 +5,7 @@
   {
     "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
     "Display Name": "David Tavdgiridze",
+    "Role": "Admin",
     "E-mail": "david.tavdgiridze@company.com",
     "Phone Number": "+995 555 11 22 33",
     "Location": "Tbilisi, Georgia",
@@ -48,25 +49,12 @@
       "Name": "Bagrat Tavdgiridze",
       "Phone": "+995 555 22 11 22",
       "Relationship": "Brother"
-    },
-        "salary": [
-          { "month": "January", "amount": 3000, "currency": "USD" },
-          { "month": "February", "amount": 3200, "currency": "USD" },
-          { "month": "March", "amount": 3100, "currency": "USD" },
-          { "month": "April", "amount": 3150, "currency": "USD" },
-          { "month": "May", "amount": 3200, "currency": "USD" },
-          { "month": "June", "amount": 3100, "currency": "USD" },
-          { "month": "July", "amount": 3000, "currency": "USD" },
-          { "month": "August", "amount": 3250, "currency": "USD" },
-          { "month": "September", "amount": 3300, "currency": "USD" },
-          { "month": "October", "amount": 3350, "currency": "USD" },
-          { "month": "November", "amount": 3400, "currency": "USD" },
-          { "month": "December", "amount": 3500, "currency": "USD" }
-        ]
+    }
       },
       {
         "User Id": "d35b7081-1d5d-43fe-a557-1fa39b68296b",
         "Display Name": "Giorgi Nakeuri",
+        "Role": "Admin",
         "E-mail": "giorgi.nakeuri@company.com",
         "Phone Number": "+995 555 654 321",
         "Location": "Tbilisi, Georgia",
@@ -110,26 +98,12 @@
           "Name": "Keti Nakeuri",
           "Phone": "+995 555 123 987",
           "Relationship": "Sister"
-        },
-      
-        "salary": [
-          { "month": "January", "amount": 2500, "currency": "EUR" },
-          { "month": "February", "amount": 2600, "currency": "EUR" },
-          { "month": "March", "amount": 2550, "currency": "EUR" },
-          { "month": "April", "amount": 2600, "currency": "EUR" },
-          { "month": "May", "amount": 2650, "currency": "EUR" },
-          { "month": "June", "amount": 2550, "currency": "EUR" },
-          { "month": "July", "amount": 2500, "currency": "EUR" },
-          { "month": "August", "amount": 2700, "currency": "EUR" },
-          { "month": "September", "amount": 2750, "currency": "EUR" },
-          { "month": "October", "amount": 2800, "currency": "EUR" },
-          { "month": "November", "amount": 2850, "currency": "EUR" },
-          { "month": "December", "amount": 2900, "currency": "EUR" }
-        ]
+        }
       },
       {
         "User Id": "0e0deeb5-ff8d-48f1-8f99-689224b0bc93",
         "Display Name": "Ethan Miller",
+        "Role": "Developer",
         "E-mail": "ethan.miller@company.com",
         "Phone Number": "+1-555-5678",
         "Location": "Seattle, USA",
@@ -164,26 +138,12 @@
             "Name": "Emily Miller",
             "Phone": "+1-555-1122",
             "Relationship": "Sister"
-        },
-         "salary": 
-          [
-          { "month": "January", "amount": 450000, "currency": "JPY" },
-          { "month": "February", "amount": 455000, "currency": "JPY" },
-          { "month": "March", "amount": 460000, "currency": "JPY" },
-          { "month": "April", "amount": 465000, "currency": "JPY" },
-          { "month": "May", "amount": 470000, "currency": "JPY" },
-          { "month": "June", "amount": 455000, "currency": "JPY" },
-          { "month": "July", "amount": 450000, "currency": "JPY" },
-          { "month": "August", "amount": 475000, "currency": "JPY" },
-          { "month": "September", "amount": 480000, "currency": "JPY" },
-          { "month": "October", "amount": 485000, "currency": "JPY" },
-          { "month": "November", "amount": 490000, "currency": "JPY" },
-          { "month": "December", "amount": 495000, "currency": "JPY" }
-          ] 
+        }
       },   
       {
         "User Id": "3f7a053b-3a0e-408b-b913-bc3789ec1ac6",
         "Display Name": "Ryan Patel",
+        "Role": "Developer",
         "E-mail": "ryan.patel@company.com",
         "Phone Number": "+995 555 321 654",
         "Location": "Tbilisi, Georgia",
@@ -221,27 +181,13 @@
           "Name": "Vikram Patel",
           "Phone": "+995 555 456 789",
           "Relationship": "Father"
-        },
-        "salary": 
-        [
-          { "month": "January", "amount": 2000, "currency": "GBP" },
-          { "month": "February", "amount": 2100, "currency": "GBP" },
-          { "month": "March", "amount": 2050, "currency": "GBP" },
-          { "month": "April", "amount": 2100, "currency": "GBP" },
-          { "month": "May", "amount": 2150, "currency": "GBP" },
-          { "month": "June", "amount": 2050, "currency": "GBP" },
-          { "month": "July", "amount": 2000, "currency": "GBP" },
-          { "month": "August", "amount": 2200, "currency": "GBP" },
-          { "month": "September", "amount": 2250, "currency": "GBP" },
-          { "month": "October", "amount": 2300, "currency": "GBP" },
-          { "month": "November", "amount": 2350, "currency": "GBP" },
-          { "month": "December", "amount": 2400, "currency": "GBP" }
-        ]
+        }
       },
       
       {
         "User Id": "f11dca02-9b8b-4740-b9c1-ecb36fd5a4b7",
         "Display Name": "Sophia Green",
+        "Role": "Sales",
         "E-mail": "sophia.green@company.com",
         "Phone Number": "+995 555 234 876",
         "Location": "Tbilisi, Georgia",
@@ -279,26 +225,12 @@
           "Name": "Julia Green",
           "Phone": "+995 555 678 123",
           "Relationship": "Mother"
-        },
-        "salary": 
-        [
-          { "month": "January", "amount": 2000, "currency": "GBP" },
-          { "month": "February", "amount": 2100, "currency": "GBP" },
-          { "month": "March", "amount": 2050, "currency": "GBP" },
-          { "month": "April", "amount": 2100, "currency": "GBP" },
-          { "month": "May", "amount": 2150, "currency": "GBP" },
-          { "month": "June", "amount": 2050, "currency": "GBP" },
-          { "month": "July", "amount": 2000, "currency": "GBP" },
-          { "month": "August", "amount": 2200, "currency": "GBP" },
-          { "month": "September", "amount": 2250, "currency": "GBP" },
-          { "month": "October", "amount": 2300, "currency": "GBP" },
-          { "month": "November", "amount": 2350, "currency": "GBP" },
-          { "month": "December", "amount": 2400, "currency": "GBP" }
-        ]
+        }
       },
       {
         "User Id": "b40a7bbf-df96-4b2b-9271-253283207497",
         "Display Name": "Emma Wright",
+        "Role": "Sales",
         "E-mail": "emma.wright@company.com",
         "Phone Number": "+995 555 543 210",
         "Location": "Tbilisi, Georgia",
@@ -336,26 +268,12 @@
           "Name": "Peter Wright",
           "Phone": "+995 555 234 567",
           "Relationship": "Father"
-        },
-        "salary": 
-        [
-          { "month": "January", "amount": 2000, "currency": "GBP" },
-          { "month": "February", "amount": 2100, "currency": "GBP" },
-          { "month": "March", "amount": 2050, "currency": "GBP" },
-          { "month": "April", "amount": 2100, "currency": "GBP" },
-          { "month": "May", "amount": 2150, "currency": "GBP" },
-          { "month": "June", "amount": 2050, "currency": "GBP" },
-          { "month": "July", "amount": 2000, "currency": "GBP" },
-          { "month": "August", "amount": 2200, "currency": "GBP" },
-          { "month": "September", "amount": 2250, "currency": "GBP" },
-          { "month": "October", "amount": 2300, "currency": "GBP" },
-          { "month": "November", "amount": 2350, "currency": "GBP" },
-          { "month": "December", "amount": 2400, "currency": "GBP" }
-        ]
+        }
       },
       {
         "User Id": "4b30e033-bcb5-428b-a1b4-bf11180c3b99",
         "Display Name": "Elena Turner",
+        "Role": "HR",
         "E-mail": "elena.turner@company.com",
         "Phone Number": "+995 555 789 432",
         "Location": "Tbilisi, Georgia",
@@ -393,23 +311,100 @@
           "Name": "Sophia Turner",
           "Phone": "+995 555 321 987",
           "Relationship": "Mother"
+        }
+      },
+      {
+        "User Id": "9a1f5b3c-d4e7-4728-b59c-8e3d354a9f12",
+        "Display Name": "Nino Beridze",
+        "Role": "Admin",
+        "E-mail": "nino.beridze@company.com",
+        "Phone Number": "+995 555 77 88 99",
+        "Location": "Tbilisi, Georgia",
+        "Directory Status": "Remote",
+        "Interpreted User Type": "RemoteWorker",
+        "Audio Conferencing": "On",
+        "Phone Systems": "On",
+        "Calling Plan": "Standard",
+        "Job Title": "System Administrator",
+        "Department": "IT Support",
+        "Manager": "David Tavdgiridze",
+        "Employment Start Date": "2024-03-15",
+        "Office Location": "Home Office",
+        "Skills": [
+            "Network Administration",
+            "Server Maintenance",
+            "Troubleshooting",
+            "Cybersecurity",
+            "Active Directory",
+            "Python Scripting",
+            "Linux Administration"
+        ],
+        "Education": {
+            "Degree": "Bachelor's in Computer Networks and Security",
+            "University": "Ivane Javakhishvili Tbilisi State University",
+            "Graduation Year": 2020
         },
-        "salary": 
-        [
-          { "month": "January", "amount": 2000, "currency": "GBP" },
-          { "month": "February", "amount": 2100, "currency": "GBP" },
-          { "month": "March", "amount": 2050, "currency": "GBP" },
-          { "month": "April", "amount": 2100, "currency": "GBP" },
-          { "month": "May", "amount": 2150, "currency": "GBP" },
-          { "month": "June", "amount": 2050, "currency": "GBP" },
-          { "month": "July", "amount": 2000, "currency": "GBP" },
-          { "month": "August", "amount": 2200, "currency": "GBP" },
-          { "month": "September", "amount": 2250, "currency": "GBP" },
-          { "month": "October", "amount": 2300, "currency": "GBP" },
-          { "month": "November", "amount": 2350, "currency": "GBP" },
-          { "month": "December", "amount": 2400, "currency": "GBP" }
-        ]
+        "Certifications": [
+            "CompTIA Security+",
+            "Microsoft Certified: Azure Administrator Associate"
+        ],
+        "Languages": [
+            "Georgian (Native)",
+            "English (Fluent)",
+            "Russian (Intermediate)"
+        ],
+        "Birthday": "25-09-1997",
+        "Emergency Contact": {
+            "Name": "Lasha Beridze",
+            "Phone": "+995 555 66 55 44",
+            "Relationship": "Brother"
+        }
+    },
+
+    {
+      "User Id": "4f5a7e91-cd63-44e7-a0c1-bb9aef4b1234",
+      "Display Name": "Tamar Gabunia",
+      "Role": "Finance",
+      "E-mail": "tamar.gabunia@company.com",
+      "Phone Number": "+995 555 11 22 33",
+      "Location": "Tbilisi, Georgia",
+      "Directory Status": "PureOnline",
+      "Interpreted User Type": "PureOnlineTeamsOnlyUser",
+      "Audio Conferencing": "On",
+      "Phone Systems": "On",
+      "Calling Plan": "None",
+      "Job Title": "Finance Specialist",
+      "Department": "Finance Department",
+      "Manager": "David Tavdgiridze",
+      "Employment Start Date": "2024-03-15",
+      "Office Location": "Tbilisi Office, 7th Floor",
+      "Skills": [
+          "Budget Planning",
+          "Accounting Software",
+          "Financial Reporting",
+          "Data Analysis"
+      ],
+      "Education": {
+          "Degree": "Bachelor's in Finance",
+          "University": "Tbilisi State University",
+          "Graduation Year": 2022
+      },
+      "Certifications": [
+          "Certified Public Accountant (CPA)"
+      ],
+      "Languages": [
+          "English (Fluent)",
+          "Georgian (Native)",
+          "Russian (Intermediate)"
+      ],
+      "Birthday": "1998-07-12",
+      "Emergency Contact": {
+          "Name": "Nikoloz Gabunia",
+          "Phone": "+995 599 88 77 66",
+          "Relationship": "Brother"
       }
+  }
+    
       
 ]
 
