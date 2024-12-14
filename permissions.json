@@ -1,5 +1,5 @@
 {
-    "roles": {
+    "role": {
       "Admin": {
         "access": {
           "read": ["user_info.json", "department_info.json", "CV_info.json", "projects_info.json", "client_info.json", "finance_info.json"],
