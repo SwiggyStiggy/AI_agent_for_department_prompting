@@ -1,0 +1,53 @@
+{
+    "users": [
+      {
+        "email": "david.tavdgiridze@company.com",
+        "password": "tavdgiridze123",
+        "department": "Development Department",
+        "role": "Admin"
+      },
+      {
+        "email": "giorgi.nakeuri@company.com",
+        "password": "nakeuri123",
+        "department": "Sales and Marketing Department",
+        "role": "Admin"
+      },
+      {
+        "email": "ethan.miller@company.com",
+        "password": "miller123",
+        "department": "Development Department",
+        "role": "Developer"
+      },
+      {
+        "email": "ryan.patel@company.com",
+        "password": "patel123",
+        "department": "Development Department",
+        "role": "Developer"
+      },
+      {
+        "email": "sophia.green@company.com",
+        "password": "green123",
+        "department": "Sales and Marketing Department",
+        "role": "Sales"
+      },
+      {
+        "email": "emma.wright@company.com",
+        "password": "wright123",
+        "department": "Sales and Marketing Department",
+        "role":"Sales"
+      },
+      {
+        "email": "elena.turner@company.com",
+        "password": "turner123",
+        "department": "Human Resources Department",
+        "role":"HR"
+      },
+      {
+        "email": "nino.beridze@company.com",
+        "password": "beridze123",
+        "department": "Finance Department",
+        "role":"Finance"
+      }
+    ]
+  }
+  
