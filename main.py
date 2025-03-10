@@ -31,6 +31,8 @@ with open('./finance_info.json') as json_file:
 with open('./permissions.json') as json_file:
     permissions = json.load(json_file)
 
+with open('./SHIPINFO.json') as json_file:
+    shipinfo = json.load(json_file)
     
 data = {
     "department_info": department_data,
@@ -39,6 +41,7 @@ data = {
     "projects_info": projects_info,
     "clients_info": clients_info,
     "finance_info.json": finance_info,
+    "SHIPINFO.json": shipinfo
 }
 
 def get_user_role(user_id):
@@ -64,7 +67,7 @@ def generate_response(conversation_history):
     response_ = openai.chat.completions.create(
         model='gpt-4o-mini',
         messages=conversation_history,
-        max_tokens=1000,
+        max_tokens=10000,
         temperature=0.7,
         n=1
     )
@@ -121,7 +124,7 @@ class ChatWindow(QWidget):
     def start_conversation(self):
         user_question = self.user_input.text()
 
-        if user_question.strip() != "":  # Prevent sending empty messages
+        if user_question.strip() != "":
             self.conversation_history.append({"role": "user", "content": user_question})
             prompt_data = json.dumps(data, indent=4)
             self.conversation_history.append({"role": "system", "content": f"Data available: {prompt_data}"})
@@ -143,11 +146,11 @@ class ChatWindow(QWidget):
 
     
     def keyPressEvent(self, event):
-        # If Enter is pressed, trigger the send conversation function
+        
         if event.key() == Qt.Key.Key_Return or event.key() == Qt.Key.Key_Enter:
             self.start_conversation()
 
-        # If ESC is pressed, exit the application
+        
         if event.key() == Qt.Key.Key_Escape:
             self.exit_application()
 
@@ -157,3 +160,6 @@ if __name__ == '__main__':
     window = ChatWindow()
     window.show()
     app.exec()
+
+
+    
